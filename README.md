@@ -1,5 +1,5 @@
 # terraform-aws-vpc-ec2
-AWS構成をTerraformで構築するコード
+AWS構成をTerraformで構築するコード　※著作権 Copilot
 # AWS Infrastructure with Terraform
 
 ## 📌 概要
