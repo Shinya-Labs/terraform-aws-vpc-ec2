@@ -1,35 +1,26 @@
 # terraform-aws-vpc-ec2
-AWS構成をTerraformで構築するコード　※著作権 Copilot
-# AWS Infrastructure with Terraform
+このプロジェクトは、Terraformを用いてAWS上にEC2インスタンスを構築するインフラ構成のポートフォリオです。  
+クラウドエンジニアとしての転職活動を目的とし、IaC（Infrastructure as Code）の実践力を示すために作成しました。
 
-## 📌 概要
-このリポジトリは、Terraformを使用してAWS上に基本的なインフラ構成（VPC、サブネット、EC2インスタンス）を構築するコードをまとめたものです。クラウドエンジニアとしてのスキル証明を目的としたポートフォリオの一部です。
+## 🔧 使用技術
+- Terraform
+- AWS（EC2）
+- GitHub
 
-## 🛠 使用技術
-- Terraform v1.x
-- AWS Provider
-- Amazon Linux 2
-- GitHub（コード管理）
-- VS Code（開発環境）
+## 📐 構成図
 
-## 🧱 構成内容
-- VPC（CIDR：10.0.0.0/16）
-- Public Subnet（CIDR：10.0.1.0/24）
-- Internet Gateway（IGW）
-- Route Table（IGWへのルート設定）
-- EC2インスタンス（Amazon Linux 2、t2.micro）
-- セキュリティグループ（SSHポート開放）
+以下の構成図は、Terraformによって構築されるAWSリソースの概要を示しています。
 
-## 📂 ディレクトリ構成
-terraform-aws-vpc-ec2/
-├── main.tf              # リソース定義
-├── variables.tf         # 変数定義
-├── outputs.tf           # 出力値
-├── provider.tf          # AWSプロバイダー設定
-└── terraform.tfvars     # 変数の値
+![構成図](images/architectureを意識しています。
 
-## 🚀 実行手順
-1. AWS CLIで認証情報を設定（`aws configure`）
-2. Terraform初期化  
-   ```bash
-   terraform init
+## 🚀 デプロイ手順
+
+1. AWS CLIの認証情報を設定
+2. Terraformの初期化  
+   `terraform init`
+3. Terraformのプラン確認  
+   `terraform plan`
+4. Terraformの適用  
+   `terraform apply`
+
+## 📄 ファイル構成
