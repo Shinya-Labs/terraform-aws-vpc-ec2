@@ -12,7 +12,6 @@
 以下の構成図は、Terraformによって構築されるAWSリソースの概要を示しています。
 
 ![構成図](images/architecture.png)
-``
 
 ## 🚀 デプロイ手順
 
