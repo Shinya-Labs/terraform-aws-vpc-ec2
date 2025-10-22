@@ -6,6 +6,7 @@
 - Terraform
 - AWS（EC2）
 - GitHub
+- Copilot ※本フォーマット作成補助
 
 ## 📐 構成図
 
@@ -31,5 +32,5 @@ terraform-aws-vpc-ec2-Ver.2/
 ├── outputs.tf
 ├── README.md
 └── images/
-└── architecture.png
+    └── architecture.png
 
