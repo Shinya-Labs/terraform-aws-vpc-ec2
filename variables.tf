@@ -1,11 +1,17 @@
-variable "aws_region" {
-  description = "AWSのリージョン"
+variable "ami_id" {
+  description = "AMI ID for the EC2 instance"
   type        = string
-  default     = "ap-northeast-1"  # 東京リージョン（任意）
+  default     = "ami-0c3fd0f5d33134a76"
 }
 
-variable "aws_profile" {
-  description = "AWS CLIのプロファイル名"
+variable "instance_type" {
+  description = "EC2 instance type"
   type        = string
-  default     = "default"  # AWS CLIで設定したプロファイル名
+  default     = "t2.micro"
+}
+
+variable "instance_name" {
+  description = "Tag name for the EC2 instance"
+  type        = string
+  default     = "terraform-ec2-example"
 }
