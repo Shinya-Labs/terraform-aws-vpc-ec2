@@ -1,3 +1,4 @@
+'''
 # terraform-aws-vpc-ec2
 このプロジェクトは、Terraformを用いてAWS上にEC2インスタンスを構築するインフラ構成のポートフォリオです。  
 クラウドエンジニアとしての転職活動を目的とし、IaC（Infrastructure as Code）の実践力を示すために作成しました。
@@ -23,7 +24,6 @@
 4. Terraformの適用  
    `terraform apply`
 
-'''
 ## 📄 ファイル構成
 terraform-aws-vpc-ec2-Ver.2/
 ├── main.tf
