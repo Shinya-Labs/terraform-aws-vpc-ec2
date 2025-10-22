@@ -24,8 +24,7 @@
    `terraform apply`
 
 ## 📄 ファイル構成
-'''
-terraform-aws-vpc-ec2-Ver.2/
+'''terraform-aws-vpc-ec2-Ver.2/
 ├── main.tf
 ├── variables.tf
 ├── outputs.tf
