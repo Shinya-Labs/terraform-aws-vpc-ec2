@@ -33,4 +33,4 @@ terraform-aws-vpc-ec2/
 ├── README.md
 └── images/
     └── architecture.png
-
+```
