@@ -34,3 +34,17 @@ terraform-aws-vpc-ec2/
 └── images/
     └── architecture.png
 ```
+
+## 📤 Outputs
+
+Terraformの適用後、以下の情報が出力されます：
+
+- EC2インスタンスのパブリックIP
+- EC2インスタンスID
+
+```bash
+Outputs:
+
+instance_public_ip = "xx.xx.xx.xx"
+instance_id        = "i-xxxxxxxxxxxxxxxxx"
+
