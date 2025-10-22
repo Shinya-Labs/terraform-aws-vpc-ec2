@@ -23,6 +23,7 @@
 4. Terraformの適用  
    `terraform apply`
 
+'''
 ## 📄 ファイル構成
 terraform-aws-vpc-ec2-Ver.2/
 ├── main.tf
@@ -31,4 +32,4 @@ terraform-aws-vpc-ec2-Ver.2/
 ├── README.md
 └── images/
 └── architecture.png
-'''
+
