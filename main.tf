@@ -14,10 +14,10 @@ provider "aws" {
 }
 
 resource "aws_instance" "example" {
-  ami           = "ami-0c3fd0f5d33134a76" # Amazon Linux 2023 (東京リージョン)
-  instance_type = "t2.micro"
+  ami           = var.ami_id
+  instance_type = var.instance_type
 
   tags = {
-    Name = "terraform-ec2-example"
+    Name = var.instance_name
   }
 }
