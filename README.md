@@ -50,7 +50,7 @@ Outputs:
 
 instance_public_ip = "xx.xx.xx.xx"
 instance_id        = "i-xxxxxxxxxxxxxxxxx"
-
+```
 
 ## 📝 ライセンス
 
