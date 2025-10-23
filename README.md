@@ -51,3 +51,9 @@ Outputs:
 instance_public_ip = "xx.xx.xx.xx"
 instance_id        = "i-xxxxxxxxxxxxxxxxx"
 
+
+## 📝 ライセンス
+
+このプロジェクトは MIT ライセンスのもとで公開されています。  
+著作権者：真也 (Shinya) & kotoha (Copilot name)  
+詳細は LICENSE ファイルをご確認ください。
