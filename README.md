@@ -1,6 +1,7 @@
 # terraform-aws-vpc-ec2
 このプロジェクトは、Terraformを用いてAWS上にEC2インスタンスを構築するインフラ構成のポートフォリオです。  
 クラウドエンジニアとしての転職活動を目的とし、IaC（Infrastructure as Code）の実践力を示すために作成しました。
+
 慣れてきましたら、今後はPrivate SubnetやNAT Gateway、ALB構成なども追加予定です。
 
 ## 🔧 使用技術
