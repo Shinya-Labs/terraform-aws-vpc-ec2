@@ -16,7 +16,6 @@ provider "aws" {
 resource "aws_instance" "example" {
   ami           = var.ami_id
   instance_type = var.instance_type
-  security_groups = [aws_security_group.ssh_access.name]
 
   tags = {
     Name = var.instance_name
@@ -94,4 +93,4 @@ resource "aws_route_table_association" "public" {
   route_table_id = aws_route_table.public.id
 }
 
-subnet_id = aws_subnet.public.id
+
