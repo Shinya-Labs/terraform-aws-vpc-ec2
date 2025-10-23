@@ -3,7 +3,7 @@
 クラウドエンジニアとしての転職活動を目的とし、IaC（Infrastructure as Code）の実践力を示すために作成しました。
 
 ## 🔧 使用技術
-- Terraform
+- Terraform (Terraform >= 1.3.0 / AWS Provider ~> 5.0)
 - AWS（EC2）
 - GitHub
 - Copilot ※本フォーマット作成補助
